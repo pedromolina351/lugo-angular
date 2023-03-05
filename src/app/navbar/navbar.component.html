@@ -1,0 +1,11 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">lugo</a>
+      <form class="d-flex" role="search">
+        <select class="usuarios" id="usuario">
+          <option value={{element.nombre}} *ngFor="let element of usuarios">{{element.nombre+' '+element.apellido}}</option>
+        </select>
+        <button class="btn btn-ordenes" type="submit">Ver ordenes</button>
+      </form>
+    </div>
+</nav>

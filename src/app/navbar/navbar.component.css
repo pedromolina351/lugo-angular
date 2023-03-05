@@ -1,0 +1,36 @@
+
+.navbar {
+    background-color: #5C3287;
+    display: flex;
+}
+
+.btn-ordenes {
+    color: white;
+    border-radius: 30px;
+    background-color: #440F71;
+    padding: 10px 45px 10px 45px;
+    margin-left: 10px;
+}
+
+.btn-ordenes:hover {
+    background-color: #291142;
+}
+
+.usuarios {
+    color: #5c3287!important;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 10px 45px 10px 45px;
+}
+
+.navbar-brand {
+    color: #FFF;
+    padding-left: 40px;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+
+.d-flex {
+    margin-right: 50px;
+}

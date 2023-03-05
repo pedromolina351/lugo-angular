@@ -1,0 +1,53 @@
+.titulo {
+    color: #5C3287;
+    font-weight: 800;
+}
+
+.subtitulo {
+    color: #5C3287;   
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+#categoria {
+    display: flex;
+    flex-direction: column;
+    background-color: #9CC1E6;
+    border-radius: 10%;
+    width: 228px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.icono {
+    display: flex;
+    width: 81px;
+    height: 70px;
+    margin: 20px 20px 33px;
+    background-color: white;
+    color: #5C3287;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+.container {
+    margin-top: 20px;
+}
+.titulos {
+    color: white;
+    padding-left: 20px;
+}
+
+#nombre-categoria {
+    font-weight: 700;
+    letter-spacing: .1rem;
+    margin-bottom: 0px;
+}
+
+#comercios {
+    font-size: 1.1rem;
+}
