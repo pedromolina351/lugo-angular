@@ -16,10 +16,11 @@
     <h4 *ngIf="usuarioSeleccionado == undefined" class="modal-title">Selecciona un usuario</h4>
   </div>
   <div class="modal-body">
-    <div id="pedido">
-      <span class="nombre-producto">Producto 1</span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <b>$33.40</b>
+    <div *ngFor="let index of ordenesUsuario" id="pedido">
+      <span class="nombre-producto">{{index.nombreProducto}}</span>
+      <p id="descripcion">{{index.descripcion}}</p>
+      <b id="precio">${{index.precio}}</b>
+      <hr>
     </div>
   </div>
   <div class="modal-footer">

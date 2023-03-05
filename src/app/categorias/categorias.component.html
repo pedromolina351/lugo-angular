@@ -1,75 +1,11 @@
 <main role="main" class="container">
     <div id="contenedor">
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
+        <div *ngFor="let index of categorias" [style.background-color]="index.color" id="categoria">
+            <div class="icono"><i class="{{index.icono}}"></i></div>
             <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
+                <h4 id="nombre-categoria">{{index.nombreCategoria}}</h4>
+                <span id="comercios">{{index.empresas.length}} comercios</span>
             </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        <div id="categoria">
-            <div class="icono"><span>ICONO</span></div>
-            <div class="titulos">
-                <h4 id="nombre-categoria">Farmacias</h4>
-                <span id="comercios">3 comercios</span>
-            </div>    
-        </div>
-        
+        </div>        
     </div>
 </main><!-- /.container -->

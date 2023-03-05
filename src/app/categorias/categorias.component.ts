@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SharedService } from '../shared.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-categorias',
@@ -7,17 +8,18 @@ import { SharedService } from '../shared.service';
   styleUrls: ['./categorias.component.css']
 })
 export class CategoriasComponent {
-  selectedValue: string;
+  categorias: any;
 
-  constructor(private sharedService: SharedService){
-    this.selectedValue = 'a';
+
+  constructor(private http: HttpClient){
+    
   }
 
   ngOnInit(){
-    this.selectedValue = this.sharedService.selectedValue;
+    this.http.get('././assets/data/categorias.json').subscribe(categorias => {
+      this.categorias = categorias;
+      console.log(this.categorias)
+    })
   }
-  cargar(){
-    console.log("CARGAR")
 
-  }
 }

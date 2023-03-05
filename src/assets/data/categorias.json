@@ -2,7 +2,7 @@
     {
         "nombreCategoria":"Farmacias",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        "color":"#9482C4",
+        "color":"#FADB54",
         "icono":"fab fa-angellist",
         "empresas":[
             {
@@ -88,7 +88,7 @@
     {
         "nombreCategoria":"Restaurantes",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        "color":"#9482C4",
+        "color":"#F3ADAC",
         "icono":"fab fa-angellist",
         "empresas":[
             {
@@ -174,7 +174,7 @@
     {
         "nombreCategoria":"Salud",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        "color":"#9482C4",
+        "color":"#D98F6D",
         "icono":"fab fa-angellist",
         "empresas":[
             {
@@ -346,7 +346,7 @@
     {
         "nombreCategoria":"Bebidas",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        "color":"#9482C4",
+        "color":"#F3AC85",
         "icono":"fab fa-angellist",
         "empresas":[
             {

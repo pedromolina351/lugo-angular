@@ -57,3 +57,25 @@
 .modal-content {
     width: 700px;
 }
+
+.modal-body {
+    margin: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+}
+.nombre-producto {
+    color: #5C3287;
+}
+
+#precio {
+    font-size: 0.75rem;
+    align-self: flex-end;
+}
+
+#descripcion {
+    font-size: 0.8rem;
+}
+#pedido {
+    display: flex;
+    flex-direction: column;
+}
