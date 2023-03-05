@@ -1,12 +1,3 @@
-.titulo {
-    color: #5C3287;
-    font-weight: 800;
-}
-
-.subtitulo {
-    color: #5C3287;   
-}
-
 #contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

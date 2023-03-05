@@ -2,10 +2,35 @@
     <div class="container-fluid">
       <a class="navbar-brand">lugo</a>
       <form class="d-flex" role="search">
-        <select class="usuarios" id="usuario">
+        <select [(ngModel)]="usuarioSeleccionado" name="select-usuarios" class="usuarios" id="usuario">
           <option value={{element.nombre}} *ngFor="let element of usuarios">{{element.nombre+' '+element.apellido}}</option>
         </select>
-        <button class="btn btn-ordenes" type="submit">Ver ordenes</button>
+        <button (click)="openModal(myModal)" class="btn btn-ordenes" type="button">Ver ordenes</button>
       </form>
     </div>
 </nav>
+
+<ng-template #myModal>
+  <div class="modal-header">
+    <h4 *ngIf="usuarioSeleccionado != undefined" class="modal-title">{{usuarioSeleccionado}}, Estas son tus ordenes</h4>
+    <h4 *ngIf="usuarioSeleccionado == undefined" class="modal-title">Selecciona un usuario</h4>
+  </div>
+  <div class="modal-body">
+    <div id="pedido">
+      <span class="nombre-producto">Producto 1</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <b>$33.40</b>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="modalRef.hide()">Cerrar</button>
+  </div>
+</ng-template>
+
+
+<div class="container">
+  <div class="starter-template">
+    <h1 class="titulo">¡Hola {{usuarioSeleccionado}}!</h1>
+    <h1 class="subtitulo">¿Que necesitas?</h1>
+  </div>
+</div>

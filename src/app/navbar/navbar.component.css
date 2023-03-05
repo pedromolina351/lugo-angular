@@ -34,3 +34,26 @@
 .d-flex {
     margin-right: 50px;
 }
+
+.titulo {
+    color: #5C3287;
+    font-weight: 800;
+}
+
+.subtitulo {
+    color: #5C3287;   
+}
+.starter-template {
+    margin: 25px 0 0 25px; 
+}
+
+.modal-header {
+    padding: 10px;
+    background-color: #5C3287;
+    color: white;
+    font-weight: 800!important;
+    font-size: 3rem;
+}
+.modal-content {
+    width: 700px;
+}
