@@ -1,6 +1,6 @@
 <main role="main" class="container">
     <div id="contenedor">
-        <div *ngFor="let index of categorias" [style.background-color]="index.color" id="categoria">
+        <div *ngFor="let index of categorias" [style.background-color]="index.color" (click)="openModal(myModal)" (click)="onCategoriaSelected(index)" id="categoria">
             <div class="icono"><i class="{{index.icono}}"></i></div>
             <div class="titulos">
                 <h4 id="nombre-categoria">{{index.nombreCategoria}}</h4>
@@ -9,3 +9,22 @@
         </div>        
     </div>
 </main><!-- /.container -->
+
+<!-- /.Modal-->
+<ng-template #myModal>
+    <div class="modal-header">
+      <h4 class="modal-title">{{selectedCategoria.nombreCategoria}}</h4>
+    </div>
+    <div class="modal-body">
+      <div id="negocio">
+        <img src="" alt="">
+        <span class="nombre-producto"></span>
+        <p id="descripcion"></p>
+        <b id="precio"></b>
+        <hr>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="modalRef.hide()">Cerrar</button>
+    </div>
+</ng-template>

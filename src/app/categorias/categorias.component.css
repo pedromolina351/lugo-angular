@@ -14,6 +14,11 @@
     margin-top: 15px;
 }
 
+#categoria:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
 .icono {
     display: flex;
     width: 81px;
@@ -24,6 +29,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 800;
+    font-size: 3rem;
 }
 .container {
     margin-top: 20px;
@@ -41,4 +47,21 @@
 
 #comercios {
     font-size: 1.1rem;
+}
+
+.modal-header {
+    padding: 10px;
+    background-color: #5C3287;
+    color: white;
+    font-weight: 800!important;
+    font-size: 3rem;
+}
+.modal-content {
+    width: 700px;
+}
+
+.modal-body {
+    margin: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
 }

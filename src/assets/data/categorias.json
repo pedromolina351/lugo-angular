@@ -3,10 +3,10 @@
         "nombreCategoria":"Farmacias",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
         "color":"#FADB54",
-        "icono":"fab fa-angellist",
+        "icono":"fa-solid fa-user-doctor",
         "empresas":[
             {
-                "nombreEmpresa": "Empresa 1",
+                "nombreEmpresa": "Siman",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 2",
+                "nombreEmpresa": "Kielsa",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -58,7 +58,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 3",
+                "nombreEmpresa": "Farmacity",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -89,10 +89,10 @@
         "nombreCategoria":"Restaurantes",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
         "color":"#F3ADAC",
-        "icono":"fab fa-angellist",
+        "icono":"fa-solid fa-utensils",
         "empresas":[
             {
-                "nombreEmpresa": "Empresa 1",
+                "nombreEmpresa": "Bigos",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 2",
+                "nombreEmpresa": "Little Caesars",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -144,7 +144,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 3",
+                "nombreEmpresa": "Baleadas la línea",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -175,10 +175,10 @@
         "nombreCategoria":"Salud",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
         "color":"#D98F6D",
-        "icono":"fab fa-angellist",
+        "icono":"fa-solid fa-user-nurse",
         "empresas":[
             {
-                "nombreEmpresa": "Empresa 1",
+                "nombreEmpresa": "Hospimed",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -204,7 +204,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 2",
+                "nombreEmpresa": "D'Antony",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -230,7 +230,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 3",
+                "nombreEmpresa": "Santa Teresa",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -261,10 +261,10 @@
         "nombreCategoria":"Café",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
         "color":"#9482C4",
-        "icono":"fab fa-angellist",
+        "icono":"fa-solid fa-mug-hot",
         "empresas":[
             {
-                "nombreEmpresa": "Empresa 1",
+                "nombreEmpresa": "Expresso Americano",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -290,7 +290,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 2",
+                "nombreEmpresa": "Trio Café",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -316,7 +316,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 3",
+                "nombreEmpresa": "Café con Libros",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -347,10 +347,10 @@
         "nombreCategoria":"Bebidas",
         "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
         "color":"#F3AC85",
-        "icono":"fab fa-angellist",
+        "icono":"fa-solid fa-wine-bottle",
         "empresas":[
             {
-                "nombreEmpresa": "Empresa 1",
+                "nombreEmpresa": "Circle K",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -376,7 +376,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 2",
+                "nombreEmpresa": "Super 7",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
@@ -402,7 +402,7 @@
                 ]
             },
             {
-                "nombreEmpresa": "Empresa 3",
+                "nombreEmpresa": "Black Market",
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
