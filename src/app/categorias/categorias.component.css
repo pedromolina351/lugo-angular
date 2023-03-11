@@ -65,3 +65,58 @@
     border: 1px solid #eaeaea;
     border-radius: 12px;
 }
+
+.negocios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+
+.modal-empresas {
+    width: 750px;
+    background-color: #FFF;
+}
+
+#negocio {
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+#texto-negocio {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 80%;
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#nombre-producto {
+    color: #5C3287;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+#descripcion-producto {
+    font-size: 0.8rem;
+}
+
+.btn-pedir {
+    background-color: #5C3287;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-pedir {
+        position: fixed;
+        background-color: #cecece;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}

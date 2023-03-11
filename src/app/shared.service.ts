@@ -1,11 +1,11 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable, Output } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SharedService {
 
-  selectedValue: string = 'Hola';
+  @Output() disparadorDeUsuario: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
 }

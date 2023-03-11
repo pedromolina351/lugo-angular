@@ -11,20 +11,47 @@
 </main><!-- /.container -->
 
 <!-- /.Modal-->
-<ng-template #myModal>
+<ng-template #myModal  style="max-width: fit-content;">
+  <div class="modal-empresas">
     <div class="modal-header">
       <h4 class="modal-title">{{selectedCategoria.nombreCategoria}}</h4>
     </div>
-    <div class="modal-body">
-      <div id="negocio">
-        <img src="" alt="">
-        <span class="nombre-producto"></span>
-        <p id="descripcion"></p>
-        <b id="precio"></b>
-        <hr>
+    <div class="negocios">
+      <div *ngFor="let empresas of empresas" id="negocio">
+        <div style="position: relative;">
+          <img src="../../assets/{{empresas.imagen}}" style="width: 100%; border-radius: 12px;">
+          <h6 style="position: absolute; top: 50%; left: 33%; transform: translate(-50%, -50%); color: white; font-size: 2em; text-align: center;">{{empresas.nombreEmpresa}}</h6>
+          <div *ngFor="let prod of empresas.productos" id="texto-negocio">
+            <div style="display: flex; flex-direction: row;justify-content: space-between;">
+              <p id="nombre-producto">{{prod.nombreProducto}}</p>
+              <button class="btn-pedir" (click)="openModalPedir(modalPedir)" (click)="onProductoSelected(prod)">Pedir</button>
+            </div>
+            <p id="descripcion-producto">{{prod.descripcion}}</p>
+            <b style="align-self: flex-end;">{{prod.precio}}</b>
+          </div>
+       </div>
       </div>
     </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-secondary" (click)="modalRef.hide()">Cerrar</button>
     </div>
+  </div>
 </ng-template>
+
+<ng-template #modalPedir >
+  <div class="modal-pedir">
+    <div class="modal-header">
+    </div>
+    <div class="modal-body">
+      <p>{{producto.nombreProducto}}</p>
+      <input type="number" [(ngModel)]="cantidadPedido" name="nombre" min="1" max="100" step="1">
+      <button class="btn-pedir" (click)="crearPedido(producto,cantidadPedido)">Pedir</button>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="modalRef.hide()">Cerrar</button>
+    </div>
+  </div>
+</ng-template>
+
+
+

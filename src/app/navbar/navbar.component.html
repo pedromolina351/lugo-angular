@@ -2,8 +2,8 @@
     <div class="container-fluid">
       <a class="navbar-brand">lugo</a>
       <form class="d-flex" role="search">
-        <select [(ngModel)]="usuarioSeleccionado" name="select-usuarios" class="usuarios" id="usuario">
-          <option value={{element.nombre}} *ngFor="let element of usuarios">{{element.nombre+' '+element.apellido}}</option>
+        <select (change)="mostrarUsuario()" [(ngModel)]="usuarioSeleccionado" name="select-usuarios" class="usuarios" id="usuario">
+          <option value="{{element.nombre}}" *ngFor="let element of usuarios; let i = index" [selected]="i == 0">{{element.nombre+' '+element.apellido}}</option>
         </select>
         <button (click)="openModal(myModal)" class="btn btn-ordenes" type="button">Ver ordenes</button>
       </form>

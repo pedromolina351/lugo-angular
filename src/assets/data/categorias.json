@@ -10,23 +10,23 @@
                 "imagen":"img/banner.jpg",
                 "productos":[
                     {
-                        "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "nombreProducto": "Panadol",
+                        "descripcion": "Alivia dolor de cabeza",
                         "precio": 49.99
                     },
                     {
-                        "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "nombreProducto": "Vitaflenaco",
+                        "descripcion": "Para el dolor y la tension",
                         "precio": 49.99
                     },
                     {
-                        "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "nombreProducto": "Dolofin",
+                        "descripcion": "Al dolor le pone fin",
                         "precio": 49.99
                     },
                     {
-                        "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "nombreProducto": "Tio nacho",
+                        "descripcion": "Herbolaria mexicana",
                         "precio": 49.99
                     }
                 ]
@@ -37,22 +37,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -63,22 +63,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -87,7 +87,7 @@
     },
     {
         "nombreCategoria":"Restaurantes",
-        "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        "descripcion":"adipisicing elit. Dolore, modi!",
         "color":"#F3ADAC",
         "icono":"fa-solid fa-utensils",
         "empresas":[
@@ -97,22 +97,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -123,22 +123,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -149,22 +149,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -173,7 +173,7 @@
     },
     {
         "nombreCategoria":"Salud",
-        "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        "descripcion":"adipisicing elit. Dolore, modi!",
         "color":"#D98F6D",
         "icono":"fa-solid fa-user-nurse",
         "empresas":[
@@ -183,22 +183,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -209,22 +209,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -235,22 +235,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
@@ -259,7 +259,7 @@
     },
     {
         "nombreCategoria":"Café",
-        "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        "descripcion":"adipisicing elit. Dolore, modi!",
         "color":"#9482C4",
         "icono":"fa-solid fa-mug-hot",
         "empresas":[
@@ -269,22 +269,22 @@
                 "productos":[
                     {
                         "nombreProducto": "Producto 1",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 2",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 3",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     },
                     {
                         "nombreProducto": "Producto 4",
-                        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+                        "descripcion": "adipisicing elit. Dolore, modi!",
                         "precio": 49.99
                     }
                 ]
